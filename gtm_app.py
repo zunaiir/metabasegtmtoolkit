@@ -61,6 +61,10 @@ st.markdown("""
         font-weight: 600 !important;
         border-radius: 6px !important;
         letter-spacing: 0.02em;
+        .stFormSubmitButton > button *,
+.stButton > button[kind="primary"] * {
+    color: #FFFFFF !important;
+}
     }
     .stFormSubmitButton > button:hover,
     .stButton > button[kind="primary"]:hover {
