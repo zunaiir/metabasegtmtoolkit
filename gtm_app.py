@@ -80,6 +80,21 @@ st.markdown("""
         background-color: #1E2537 !important;
     }
 
+    /* Link buttons (Open in Gmail / Outlook) → Metabase blue */
+    .stLinkButton > a,
+    [data-testid="stLinkButton"] > a {
+        background-color: #509EE3 !important;
+        color: #FFFFFF !important;
+        border: none !important;
+        border-radius: 6px !important;
+        font-weight: 600 !important;
+    }
+    .stLinkButton > a:hover,
+    [data-testid="stLinkButton"] > a:hover {
+        background-color: #3A8DD4 !important;
+        color: #FFFFFF !important;
+    }
+
     /* Brief output card */
     .brief-output {
         background-color: #F7F9FC;
