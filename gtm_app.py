@@ -233,7 +233,7 @@ st.sidebar.markdown("<span style='color:#A8B4C8; font-size:0.75rem;'>© Metabase
 if "Pre-Call" in tool:
 
     st.title("Pre-Call Research Brief")
-    st.markdown('<p class="tagline">Get an AI-generated research brief before any discovery call.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="tagline">Get an AI-generated research brief before any discovery call along with tailored discovery questions.</p>', unsafe_allow_html=True)
 
     with st.form("brief_form"):
         company_name = st.text_input("Company name *", placeholder="e.g. Notion")
