@@ -3,10 +3,6 @@
 Metabase GTM Toolkit
 Your personal AI-powered go-to-market assistant.
 
-SETUP (one time):
-  pip install -r requirements.txt
-  Add your API key to ~/.zshrc:
-    echo 'export ANTHROPIC_API_KEY=your_key_here' >> ~/.zshrc && source ~/.zshrc
 
 USAGE:
   python3 gtm_toolkit.py
